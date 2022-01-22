@@ -1,22 +1,56 @@
+// Currently used for mocking the data on chain for experience and discovery layer applications and clients.
+
 {
     "0xAE034C930aA3E0cD2C7719fa7EF8Bb71cf3a7C42": {
-        "nim_displayName": "NeoDAO",
-        "balance": "0x0",
-        "nonce": "0x0",
-        "codeHash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
-        "code": "0x",
-        "storage": {
-            "asset_vaults": {
+        "nim_displayName": "NeoDAO", // Name of the person or organization who owns the wallet.
+        "nim_type": "dao", // Type of wallet.
+        "balance": "0x0", // Current balance of the wallet in NEO.
+        "nonce": "0x0", // Current nonce of the wallet in NEO.
+        "codeHash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470", // Hash of the wallet's code.
+        "code": "0x", // The wallet's code.
+        "storage": { // Consider this the utility shed of the wallet. We will add MANY more fields to this object.
+            "asset_vaults": { // The asset vaults of the wallet to be used for asset management.by the wallet owner.
                 "0xAA2161905cEEb30279f230CB80FdA95D6af0CA77": {
                     "0xAE034C930aA3E0cD2C7719fa7EF8Bb71cf3a7C42": "0x0" // Ledger ID with all transactions between the two addresses
                 }
-            }
+            },
+            "contracts": {}, // Storage of generated smart contracts and deployed contracts.
+            "loans": {}, // Storage of loans.
+            "transactions": {}, // Storage of transactions.
+            "leans": {}, // Storage of leans.
+            "assets": {}, // Storage of assets.
+            "dapps": {}, // Storage of dapps.
+            "shared_metaverse_attributes_tree": {}, // Storage of shared metaverse attributes.
+                "wallets": {
+                    "handling": 1,
+                    "management": 1,
+                    "security": 1,
+                    "storage": 1,
+                    "transactions": 1,
+                    "transfers": 1
+                },
+                "teleportation": 1,
+                "transfers": 1,
+                "access_level": 1,
+                "allowed_metaverses": {
+                    "0xAE034C930aA3E0cD2C7719fa7EF8Bb71cf3a7C42": 1
+                },
+                "disallowed_metaverses": {},
+
+            },
+
+            }, // Storage of skills JSON objects in stringifer format with historical data for revision control.
+            "settings": {}, // Storage of settings.
+            "metadata": {}, // Storage of metadata.
+            "other": {} // Storage of other data.
         },
-        "secondary_wallets": {}
+        "secondary_wallets": {},
+        
         
     },
     "0xAA2161905cEEb30279f230CB80FdA95D6af0CA77": {
         "nim_displayName": "The Gatekeeper",
+        "nim_type": "npc",
         "balance": "0x0",
         "nonce": "0x0",
         "codeHash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
