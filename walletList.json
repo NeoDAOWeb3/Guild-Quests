@@ -1,5 +1,4 @@
 // Currently used for mocking the data on chain for experience and discovery layer applications and clients.
-
 {
     "0xAE034C930aA3E0cD2C7719fa7EF8Bb71cf3a7C42": {
         "nim_displayName": "NeoDAO", // Name of the person or organization who owns the wallet.
@@ -20,7 +19,7 @@
             "leans": {}, // Storage of leans.
             "assets": {}, // Storage of assets.
             "dapps": {}, // Storage of dapps.
-            "shared_metaverse_attributes_tree": {}, // Storage of shared metaverse attributes.
+            "shared_metaverse_attributes_tree": {
                 "wallets": {
                     "handling": 1,
                     "management": 1,
@@ -35,18 +34,13 @@
                 "allowed_metaverses": {
                     "0xAE034C930aA3E0cD2C7719fa7EF8Bb71cf3a7C42": 1
                 },
-                "disallowed_metaverses": {},
-
+                "disallowed_metaverses": {}
             },
-
-            }, // Storage of skills JSON objects in stringifer format with historical data for revision control.
-            "settings": {}, // Storage of settings.
-            "metadata": {}, // Storage of metadata.
-            "other": {} // Storage of other data.
-        },
-        "secondary_wallets": {},
-        
-        
+            "data_lake": {} // Storage of data lakes for revision control. 
+        }, // Storage of skills JSON objects in stringifer format with historical data for revision control.
+        "settings": {}, // Storage of settings.
+        "metadata": {}, // Storage of metadata.
+        "other": {} // Storage of other data.
     },
     "0xAA2161905cEEb30279f230CB80FdA95D6af0CA77": {
         "nim_displayName": "The Gatekeeper",
@@ -56,8 +50,6 @@
         "codeHash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
         "code": "0x",
         "storage": {},
-        "secondary_wallets": {},
-    },
-}   
-
-       
+        "secondary_wallets": {}
+    }
+}
