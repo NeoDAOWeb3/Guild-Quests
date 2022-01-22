@@ -5,8 +5,25 @@
         "nonce": "0x0",
         "codeHash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
         "code": "0x",
-        "storage": {}
-    }
+        "storage": {
+            "asset_vaults": {
+                "0xAA2161905cEEb30279f230CB80FdA95D6af0CA77": {
+                    "0xAE034C930aA3E0cD2C7719fa7EF8Bb71cf3a7C42": "0x0" // Ledger ID with all transactions between the two addresses
+                }
+            }
+        },
+        "secondary_wallets": {}
+        
+    },
+    "0xAA2161905cEEb30279f230CB80FdA95D6af0CA77": {
+        "nim_displayName": "The Gatekeeper",
+        "balance": "0x0",
+        "nonce": "0x0",
+        "codeHash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+        "code": "0x",
+        "storage": {},
+        "secondary_wallets": {},
+    },
 }   
 
        
