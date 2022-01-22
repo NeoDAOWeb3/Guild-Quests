@@ -72,3 +72,36 @@ A list of todos for this repository:
 - [ ] - Make all projects available to the public.
 - [ ] - Gamify the community by rewarding developers for their contributions.
 - [ ] - Build a community of developers that can help each other.
+- [ ] - IP allow list for all projects and governance.
+- [ ] - SSH Certificate Authorities
+- [ ] - SSH Key Pairs
+- [ ] - Audit logs
+- [ ] - Logging
+- [ ] - Monitoring
+- [ ] - Security
+- [ ] - Access Control
+- [ ] - Sponsorship
+- [ ] - Governance
+- [ ] - Royalties
+- [ ] - Licensing
+- [ ] - Budgeting
+- [ ] - Taxes
+- [ ] - Legal
+- [ ] - Protecting
+- [ ] - Profiling
+- [ ] - Community Guidelines
+- [ ] - Code of Conduct
+- [ ] - Copyright
+- [ ] - Privacy
+- [ ] - Terms of Service
+- [ ] - Mission
+- [ ] - Vision
+- [ ] - Values
+- [ ] - Team
+- [ ] - Community Members
+- [ ] - Community
+- [ ] - Partners
+- [ ] - Partnerships
+- [ ] - Investors
+- [ ] - Contributors
+- [ ] - Badges
