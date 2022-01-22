@@ -41,6 +41,11 @@ const securityCheck = (event,client) => {
 const createTransaction = (event,client, payload) => {
     console.log(`Client transaction: ${client.id}`);
 };
+// What does this do?
+// This is a function that is called when the server is started that will connect to the MongoDB database.
+// What is MongoDB database?
+// MongoDB is a database that is used to store data.
+// Can you teach me code? 
 
 const gatekeeperNPC = (event,client, payload) => {
     console.log(`Client gatekeeperNPC: ${client.id}`);
@@ -87,3 +92,114 @@ const utils = require('./utils');
 
 // Load the constants
 const constants = require('./constants');
+
+
+
+// Hello! I'm Rosca Santigria! I am the gatekeeper of the server.
+// I am the gatekeeper of the server.
+// My job is to protect the server from malicious users.
+
+// The gatekeeper will monitor the server for malicious users with a variety of web, mobile and blockchain security checks.
+// Most of the system is automated and the gatekeeper will not be able to stop malicious users from accessing the server without the help of the developers and the community.
+
+// This is Jon Senterfitt, and I am establishing the DAO in the codebase that will become our metaverses.
+
+// Additional characters we will need to succeed in our jrouney of crushing quests and code challenges are
+// The gatekeeper NPC
+// The developer
+// The designer
+// The community
+// The community manager
+// The community member
+// The avatar maker
+// The code slinger
+// The promoter
+// The wallet maker
+// The wallet stylist
+// The wallet checker
+// The bouncer
+// The lawyer
+// The architett
+
+
+// There will also be fun characters that exist in this metaverse and throughout this code. 
+// Thanks to AI (NPC and ML) we are able to create characters that will be able to interact with the server.
+
+// This is what an NPC is in the codebase.
+
+// A scene in the metaverse top down pixel game with the gatekeeper and the developer to build the metaverse.
+// It should also be able to create characters and interact with the server.
+
+// Create the gatekeeper NPC that will be able to protect the server from malicious users.
+const gatekeeperNPC = (event,client, payload) => {
+    console.log(`Client gatekeeperNPC: ${client.id}`);
+    console.log('Authenticated as Rosca Santigria');
+
+    // This will also load and reference an upgradeable smart contract on the Polygon and Ethereum blockchain.
+    // The smart contract will be able to check if the user is a member of the community.
+
+    // This is the gatekeeper's skill.
+    // He has manu skills and skill sets.
+    // this is the leveling system for the architect.
+}
+
+// A shared frontal lobe that allows all NPCs to communiticare from a centralized, distributed ledger of internal transaction nd mining logs on the network as source data for enhanced augemented artificaial intelligence training.
+// This is the centralized ledger of internal transaction and mining logs on the network.
+
+// The simple shared state: 
+
+const NPC_NFT_TRADING_CARD_COLLECTION = {
+    "cloud": {},
+    "gatekeeper": {},
+    "developer": {},
+    "designer": {},
+    "community": {},
+    "communityManager": {},
+    "communityMember": {},
+    "avatarMaker": {},
+    "codeSlinger": {},
+    "promoter": {},
+    "walletMaker": {},
+    "walletStylist": {},
+    "walletChecker": {},
+    "bouncer": {},
+    "lawyer": {},
+    "architect": {},
+    "npc": {},
+    "ml": {},
+    "server": {},
+    "client": {},
+    "github": {},
+    "nft": {},
+    "skills": {
+        "totalAvailable": 0,
+    },
+    "levels": {},
+    "transactions": {},
+    "mining": {},
+    "logs": {},
+}
+
+const floorTransactionPrice = 100;
+const codeRoyalty = 0.1;
+
+// NPC character skill set and stats
+const GATEKEEPER = {
+    "name": "gatekeeper",
+    "level": 1,
+    "skills": {
+        "addMember": floorTransactionPrice * codeRoyalty,
+        "removeMember": floorTransactionPrice * codeRoyalty,
+        "addSkill": floorTransactionPrice * codeRoyalty,
+        "removeSkill": floorTransactionPrice * codeRoyalty,
+        "addLevel": floorTransactionPrice * codeRoyalty,
+        "removeLevel": floorTransactionPrice * codeRoyalty,
+        "addTransaction": floorTransactionPrice * codeRoyalty,
+        "removeTransaction": floorTransactionPrice * codeRoyalty,
+    },
+    "royalties": {
+        "0xAE034C930aA3E0cD2C7719fa7EF8Bb71cf3a7C42": {
+            "identifier": "NeoDAO Public Wallet"
+        },
+    } 
+}
